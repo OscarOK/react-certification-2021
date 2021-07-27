@@ -1,0 +1,8 @@
+1. Using create-react-app, what do we need to set up for testing?
+    We need to import required modules to test components, but is not necessary to install additional to get started. "create-react-app" contains jest which allows us to test.
+
+2. What components are worth to test in your development?
+    Those with key role in the development.
+
+3. Can you apply TDD once you already created components?
+    I think so, sounds like an iterative process to improve component's quality.

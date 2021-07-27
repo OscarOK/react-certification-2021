@@ -1,9 +1,13 @@
 import React from 'react';
-
-import './Layout.styles.css';
+import NavBar from '../NavBar/NavBar.component';
 
 function Layout({ children }) {
-  return <main className="container">{children}</main>;
+  return (
+    <>
+      <NavBar></NavBar>
+      <main className="container-fluid">{children}</main>
+    </>
+  );
 }
 
 export default Layout;
