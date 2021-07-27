@@ -38,12 +38,6 @@ function App() {
             <Route exact path="/">
               <HomePage />
             </Route>
-            <Route exact path="/login">
-              <LoginPage />
-            </Route>
-            <Private exact path="/secret">
-              <SecretPage />
-            </Private>
             <Route path="*">
               <NotFound />
             </Route>
