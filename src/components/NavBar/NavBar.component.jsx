@@ -1,18 +1,5 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-
-const Avatar = styled.div`
-  border-radius: 4px;
-  padding: 10px;
-  background-color: red;
-  height: auto;
-  width: auto;
-`;
-
-const UserName = styled.p`
-  font-weight: 800;
-`;
 
 const IconButton = ({ text, icon, type }) => {
   return (
